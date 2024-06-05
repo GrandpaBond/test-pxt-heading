@@ -122,6 +122,7 @@ let degreeTime = 0
 let powerMid = 0
 let error = 0
 let heading2 = 0
+setup()
 basic.showString("Scan")
 for (let index = 0; index < 3; index++) {
     basic.clearScreen()
